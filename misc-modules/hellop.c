@@ -18,7 +18,7 @@ MODULE_LICENSE("Dual BSD/GPL");
  * A couple of parameters that can be passed in: how many times we say
  * hello, and to whom.
  */
-static char *whom = "world";
+static char *whom = "imeshsps";
 static int howmany = 1;
 module_param(howmany, int, S_IRUGO);
 module_param(whom, charp, S_IRUGO);
